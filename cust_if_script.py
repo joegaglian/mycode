@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
+""" Custom script--Joe"""
 
-print(" Determine your Letter Grade")
-message = "Your  letter Grade is : "
+print(" Determine your Letter Grade ")
+
+message = "Your letter Grade is : "
 
 # wrap connection in a float() to accept decimals as numbers
-grade = float(input("What is your numerical grade?:"))
+grade = float(input("What is your numerical grade?: "))
 
 # if input value was higher or equal to 90
 if grade >= 90:
     message = message + 'A'
-elif grade  >= 80:
+elif grade >= 80:
     message = message + 'B'
-elif grade  >= 70:
+elif grade >= 70:
     message = message + 'C'
 elif grade >= 60:
     message = message + 'D'
