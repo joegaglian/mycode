@@ -20,4 +20,3 @@ elif grade >= 60:
 else:
     message = message + 'F'
 print(message)
-
